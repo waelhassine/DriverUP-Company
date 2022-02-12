@@ -1,0 +1,27 @@
+{
+  "name": "taxi-company",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.13.5",
+    "@googlemaps/react-wrapper": "^1.1.23",
+    "google-map-react": "^2.1.10",
+    "next": "12.0.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "swiper": "^8.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.9",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.18"
+  }
+}
