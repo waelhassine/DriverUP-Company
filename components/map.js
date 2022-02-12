@@ -1,7 +1,7 @@
 import React from "react";
 import GoogleMapReact from "google-map-react";
 import { FaHashtag } from "react-icons/fa";
-const Map = ({ location, zoomLevel }) => (
+const map = ({ location, zoomLevel }) => (
   <div className="map">
     <div className="google-map">
       <GoogleMapReact
@@ -18,7 +18,7 @@ const Map = ({ location, zoomLevel }) => (
     </div>
   </div>
 );
-export default Map;
+export default map;
 const LocationPin = ({ text }) => (
   <div className="pin">
     <FaHashtag className="w-8 h-8 text-gray-500  p-1" />

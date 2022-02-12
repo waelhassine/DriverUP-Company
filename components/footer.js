@@ -14,7 +14,7 @@ import {
 } from "react-icons/fa";
 import Image from "next/image";
 import Logo from "../public/logo.png";
-const Footer = () => {
+const footer = () => {
   return (
     <div>
       <div className="bg-gray-100 py-16 px-16">
@@ -152,4 +152,4 @@ const Footer = () => {
     </div>
   );
 };
-export default Footer;
+export default footer;
