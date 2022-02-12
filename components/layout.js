@@ -1,7 +1,7 @@
-import NavBar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NavBar from "./navBar";
+import Footer from "./footer";
 
-import Meta from "./Meta";
+import Meta from "./meta";
 export const Layout = ({ children }) => {
   return (
     <>
