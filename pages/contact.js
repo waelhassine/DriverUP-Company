@@ -5,7 +5,7 @@ const location = {
   lat: 37.42216,
   lng: -122.08427,
 };
-const AboutUs = () => {
+const Contact = () => {
   return (
     <div>
       {/* Content */}
@@ -110,4 +110,4 @@ const AboutUs = () => {
     </div>
   );
 };
-export default AboutUs;
+export default Contact;
