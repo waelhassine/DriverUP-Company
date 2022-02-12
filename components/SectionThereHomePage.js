@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Image1 from "../public/capture01.png";
+import Image1 from "../public/img23.jpeg";
 
 const ContentThere = () => {
   return (
