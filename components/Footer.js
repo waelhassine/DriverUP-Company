@@ -12,6 +12,8 @@ import {
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
+import Image from "next/image";
+import Logo from "../public/logo.png";
 const Footer = () => {
   return (
     <div>
@@ -48,7 +50,8 @@ const Footer = () => {
           </div>
           <div className="grid lg:grid-cols-4 gap-8">
             <div className="col-span-1 space-y-8">
-              <img src="/logo.png" />
+              <Image src={Logo} alt="Logo" />
+
               <p className="text-gray-500">
                 DriverUP has provided car services in Oakland area since 2005.
                 What started as a small company has grown into a premier
@@ -85,7 +88,7 @@ const Footer = () => {
             </div>
             <div className="col-span-1 space-y-8">
               <div className="flex flex-col space-y-2">
-                <p className="text-gray-600 font-medium">AUTORIDE</p>
+                <p className="text-gray-600 font-medium">DriverUP</p>
                 <p className="border-solid border border-amber-500  w-1/4 "></p>
               </div>
               <div className="flex flex-col space-y-4">
