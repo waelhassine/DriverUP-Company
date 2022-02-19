@@ -7,6 +7,7 @@ module.exports = {
     extend: {},
     colors: {
       'main': '#db6353',
+      'white': '#ffffff',
       'green': '#09c0b1',
       'pale-white': '#f1f5f3',
       'main-dark': '#8b453e',
@@ -17,4 +18,5 @@ module.exports = {
     }
   },
   plugins: [],
+  
 }

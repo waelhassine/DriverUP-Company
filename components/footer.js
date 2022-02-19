@@ -13,7 +13,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import Image from "next/image";
-import Logo from "../public/logo.png";
+import Logo from "../public/VBlogo.jpg";
 const footer = () => {
   return (
     <div>
@@ -21,29 +21,29 @@ const footer = () => {
         <div className="container mx-auto flex flex-col space-y-24 ">
           <div className="grid lg:grid-cols-3 gap-20">
             <div className="col-span-1 flex flex-row space-x-3">
-              <FaMapMarkedAlt className="w-12 h-12 text-amber-600  p-1" />
+              <FaMapMarkedAlt className="w-12 h-12 text-green  p-1" />
               <div className="space-y-2">
-                <p className="text-gray-500">ADDRESS</p>
-                <p className="text-gray-600 font-medium">
-                  2507 PARKER BOULEVARD OAKLAND, CA 76107
+                <p className="text-main-3">მისამართი</p>
+                <p className="text-main-3 font-medium">
+                (პეტრე) ქავთარაძის ქ. 32, თბილისი 0186
                 </p>
               </div>
             </div>
             <div className="col-span-1 flex flex-row space-x-3">
-              <FaPhoneAlt className="w-12 h-12 text-amber-600  p-1" />
+              <FaPhoneAlt className="w-12 h-12 text-green  p-1" />
               <div className="space-y-2">
-                <p className="text-gray-500">PHONES</p>
-                <p className="text-gray-600 font-medium">
-                  BOOK A RIDE: (0481) 123 987 2411 OFFICE: (0481) 123 987 2412
+                <p className="text-main-3">ტელეფონი</p>
+                <p className="text-main-3 font-medium">
+                  (995) 551 009 054
                 </p>
               </div>
             </div>
             <div className="col-span-1 flex flex-row space-x-3">
-              <FaRegClock className="w-12 h-12 text-amber-600  p-1" />
+              <FaRegClock className="w-12 h-12 text-green  p-1" />
               <div className="space-y-2">
-                <p className="text-gray-500">WORKING HOURS</p>
-                <p className="text-gray-600 font-medium">
-                  MON-SAT: 07:00 - 17:00 SUN: CLOSED
+                <p className="text-main-3">სამუშაო საათები</p>
+                <p className="text-main-3 font-medium">
+                  ორშ-შაბ: 07:00 - 17:00 კვირა: დაკეტილია
                 </p>
               </div>
             </div>
@@ -52,71 +52,64 @@ const footer = () => {
             <div className="col-span-1 space-y-8">
               <Image src={Logo} alt="Logo" />
 
-              <p className="text-gray-500">
-                DriverUP has provided car services in Oakland area since 2005.
-                What started as a small company has grown into a premier
-                limousine and private transportation company.
+              <p className="text-main-3">
+                ვიდეობუქი უკვე რამდენიმე წელია ეხმარება
+                ადამიანებს თავიანთი ციფრული მოგონებების
+                გაცოცხლებაში და ულამაზესი საჩუქრის 
+                დამზადებაში.
               </p>
             </div>
             <div className="col-span-1 space-y-8">
-              <div className="flex flex-col space-y-2">
-                <p className="text-gray-600 font-medium">OUR SERVICES</p>
-                <p className="border-solid border border-amber-500  w-1/4 "></p>
+              <div className="flex flex-col space-y-2 text-main-3">
+                <p className="text-gray-600 font-medium">ჩვენი სერვისები</p>
+                <p className="border-solid border border-green  w-1/4 "></p>
               </div>
-              <div className="flex flex-col space-y-1">
+              <div className="flex flex-col space-y-1 text-main-3">
                 <div className="flex flex-row items-center space-x-2">
-                  <FaAngleRight className="w-8 h-8 text-gray-500  p-1" />
-                  <p className="text-gray-500">Experiential Tours</p>
+                  <FaAngleRight className="w-8 h-8 text-green  p-1" />
+                  <p className="text-gray-500">ფოტოების შეკრება</p>
                 </div>
                 <div className="flex flex-row items-center space-x-2">
-                  <FaAngleRight className="w-8 h-8 text-gray-500  p-1" />
-                  <p className="text-gray-500">Wedding Limousine</p>
+                  <FaAngleRight className="w-8 h-8 text-green  p-1" />
+                  <p className="text-gray-500">ვიდეოს დამუშავება</p>
                 </div>
                 <div className="flex flex-row items-center space-x-2">
-                  <FaAngleRight className="w-8 h-8 text-gray-500  p-1" />
-                  <p className="text-gray-500">Corporate Travel</p>
+                  <FaAngleRight className="w-8 h-8 text-green  p-1" />
+                  <p className="text-gray-500">სურათის ხეზე ბეჭდვა</p>
                 </div>
                 <div className="flex flex-row items-center space-x-2">
-                  <FaAngleRight className="w-8 h-8 text-gray-500  p-1" />
-                  <p className="text-gray-500">Airport Transportation</p>
-                </div>
-                <div className="flex flex-row items-center space-x-2">
-                  <FaAngleRight className="w-8 h-8 text-gray-500  p-1" />
-                  <p className="text-gray-500">Nationwide Transportation</p>
+                  <FaAngleRight className="w-8 h-8 text-green  p-1" />
+                  <p className="text-gray-500">მიწოდება ყველგან</p>
                 </div>
               </div>
             </div>
             <div className="col-span-1 space-y-8">
               <div className="flex flex-col space-y-2">
-                <p className="text-gray-600 font-medium">DriverUP</p>
-                <p className="border-solid border border-amber-500  w-1/4 "></p>
+                <p className="text-main-3 font-medium">VideoBook</p>
+                <p className="border-solid border border-green  w-1/4 "></p>
               </div>
-              <div className="flex flex-col space-y-4">
+              <div className="flex flex-col space-y-4 text-main-3">
                 <div className="flex flex-row items-center space-x-4">
-                  <FaMapMarkerAlt className="w-6 h-6 text-gray-500  font-light" />
+                  <FaMapMarkerAlt className="w-6 h-6 text-green  font-light" />
                   <p className="text-gray-500">
-                    2507 Parker Boulevard, Oakland
+                    (პეტრე) ქავთარაძის ქ. 32, თბილისი 0186
                   </p>
                 </div>
                 <div className="flex flex-row items-center space-x-4">
-                  <FaPhone className="w-6 h-6 text-gray-500 " />
-                  <p className="text-gray-500">(0481) 123 987 2411</p>
+                  <FaPhone className="w-6 h-6 text-green" />
+                  <p className="text-gray-500">(995) 551 009 054</p>
                 </div>
                 <div className="flex flex-row items-center space-x-4">
-                  <FaPhoneSquareAlt className="w-6 h-6 text-gray-500 " />
-                  <p className="text-gray-500">(0481) 123 987 2412</p>
+                  <FaVoicemail className="w-6 h-6 text-green" />
+                  <p className="text-gray-500"> onapetvaridze@gmail.com</p>
                 </div>
                 <div className="flex flex-row items-center space-x-4">
-                  <FaVoicemail className="w-6 h-6 text-gray-500 " />
-                  <p className="text-gray-500"> contact@autoride.com</p>
-                </div>
-                <div className="flex flex-row items-center space-x-4">
-                  <FaCalendarWeek className="w-6 h-6 text-gray-500 " />
-                  <p className="text-gray-500">Mon-Sat: 07:00 - 17:00</p>
+                  <FaCalendarWeek className="w-6 h-6 text-green" />
+                  <p className="text-gray-500">ორშ-შაბ: 07:00 - 17:00</p>
                 </div>
               </div>
             </div>
-            <div className="col-span-1 space-y-8">
+            {/* <div className="col-span-1 space-y-8">
               <div className="flex flex-col space-y-2">
                 <p className="text-gray-600 font-medium">SUBSCRIBE</p>
                 <p className="border-solid border border-amber-500  w-1/4 "></p>
@@ -136,14 +129,14 @@ const footer = () => {
                   Submit
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
 
-      <div className="py-8 container mx-auto flex flex-row justify-between">
-        <p>Copyright 2021 DriverUp Theme by Wael Hassine</p>
-        <div className="flex flex-row space-x-3">
+      <div className="py-8 container mx-auto flex flex-row justify-center">
+        
+        <div className="flex flex-row space-x-3 text-green">
           <FaFacebook className="w-5 h-5 text-gray-500" />
           <FaInstagram className="w-5 h-5 text-gray-500" />
           <FaWhatsapp className="w-5 h-5 text-gray-500" />

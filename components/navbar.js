@@ -13,42 +13,24 @@ import Logo from "../public/VBlogo.jpg";
 const navbar = () => {
   return (
     <div>
-      <div className="bg-gray-100 ">
-        <div className="container mx-auto lg:flex lg:flex-row  lg:justify-between justify-center items-center space-y-2  text-gray-500 py-3 w-full">
-          <div className="lg:flex lg:flex-row flex flex-col justify-center items-center space-x-12 lg:space-y-0 space-y-2">
-            <div className="flex flex-row space-x-2">
-              <FaMapMarkerAlt className="w-5 h-5 text-gray-500" />
-              <p>2507 Parker Boulevard, Oakland, CA 76107</p>
-            </div>
-            <div className="flex flex-row space-x-2">
-              <FaMobileAlt className="w-5 h-5 text-gray-500" />
-              <p> (0481) 123 987 2411</p>
-            </div>
-            <div className="flex flex-row space-x-2">
-              <FaRegClock className="w-5 h-5 text-gray-500" />
-              <p>Mon-Sat: 07:00 - 17:00</p>
-            </div>
-          </div>
-          <div className="flex flex-row space-x-4  justify-center items-center ">
-            <FaFacebook className="w-6 h-6 text-gray-500" />
-            <FaInstagram className="w-6 h-6 text-gray-500" />
-            <FaWhatsapp className="w-6 h-6 text-gray-500" />
-          </div>
-        </div>
-      </div>
+      <div className="bg-gray-100 "></div>
       <nav className=" px-2 sm:px-4 py-5 ">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link href="/">
             <div href="#" className="flex w-16 h-16">
-              <Image  src={Logo} alt="Logo" className="rounded"/>
+              <Link href='/'>
+                <button>
+                <Image src={Logo} alt="Logo" className="rounded-2xl" />
+                </button>
+              </Link>              
             </div>
           </Link>
           <div className="flex md:order-2">
             <button
               type="button"
-              className="text-gray-700 hover:text-white hover:bg-yellow-600 border-2 border-yellow-500   rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
+              className="text-main-dark hover:text-white hover:bg-green border-2 border-main-4  rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
             >
-              GET A QUOTE
+              მოგვწერეთ!
             </button>
             <button
               data-collapse-toggle="mobile-menu-4"
@@ -88,12 +70,12 @@ const navbar = () => {
             className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
             id="mobile-menu-4"
           >
-            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  ">
+            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  text-main-3">
               <li>
                 <Link href="/">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-yellow-600  md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 md:hover:text-yellow-500 md:p-0 "
                     aria-current="page"
                   >
                     HOME
@@ -104,7 +86,7 @@ const navbar = () => {
                 <Link href="/aboutus">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 md:hover:text-yellow-500 md:p-0 "
                   >
                     ABOUT
                   </a>
@@ -114,7 +96,7 @@ const navbar = () => {
                 <Link href="/services">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 md:hover:text-yellow-500 md:p-0 "
                   >
                     SERVICES
                   </a>
@@ -124,7 +106,7 @@ const navbar = () => {
                 <Link href="/contact">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500  md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 md:hover:text-yellow-500 md:p-0 "
                   >
                     CONTACT
                   </a>
@@ -132,6 +114,33 @@ const navbar = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="container mx-auto lg:flex lg:flex-row  lg:justify-between justify-center items-center space-y-2  text-main-3 pt-3 w-full">
+          <div className="lg:flex lg:flex-row flex flex-col justify-center items-center space-x-12 lg:space-y-0 space-y-2">
+          <div className="flex flex-row space-x-2 ">
+            <FaRegClock className="w-5 h-5" />
+            <p>სამ საათები: 09:00 - 18:00</p>
+          </div>
+
+          </div>
+          <div className="flex flex-row space-x-4  justify-center items-center ">
+              <Link
+                href="https://www.facebook.com/videobook.ge/"
+                target="_blank"
+              >
+                <button>
+                  <FaFacebook className="w-6 h-6" />
+                </button>
+              </Link>
+              <Link
+                href="https://www.instagram.com/videobook.ge/"
+                target="_blank"
+              >
+                <button>
+                  <FaInstagram className="w-6 h-6" />
+                </button>
+              </Link>
+            </div>
         </div>
       </nav>
     </div>
