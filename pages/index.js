@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <SectionService />
-      <SectionOneHomePage />
+      {/* <SectionService /> */}
+      {/* <SectionOneHomePage /> */}
       <SectionTwoHomePage />
       <SectionThereHomePage />
     </div>

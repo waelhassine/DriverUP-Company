@@ -11,7 +11,7 @@ import { Autoplay, Navigation } from "swiper";
 const header = () => {
   return (
     <div className=" h-screen w-full">
-      <Swiper
+      {/* <Swiper
         navigation={true}
         autoplay={{
           delay: 2500,
@@ -88,7 +88,7 @@ const header = () => {
             </div>
           </div>
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
     </div>
   );
 };
