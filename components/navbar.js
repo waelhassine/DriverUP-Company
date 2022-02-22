@@ -12,23 +12,23 @@ import Logo from "../public/VBlogo.jpg";
 
 const navbar = () => {
   return (
-    <div>
-      <div className="bg-gray-100 "></div>
+    <div className="">
+      <div className="bg-green"></div>
       <nav className=" px-2 sm:px-4 py-5 ">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link href="/">
             <div href="#" className="flex w-16 h-16">
-              <Link href='/'>
+              <Link href="/">
                 <button>
-                <Image src={Logo} alt="Logo" className="rounded-2xl" />
+                  <Image src={Logo} alt="Logo" className="rounded-2xl" />
                 </button>
-              </Link>              
+              </Link>
             </div>
           </Link>
           <div className="flex md:order-2">
             <button
               type="button"
-              className="text-main-dark hover:text-white hover:bg-green border-2 border-main-4  rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
+              className="text-main-dark hover:text-white hover:bg-green border-2 border-green rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
             >
               მოგვწერეთ!
             </button>
@@ -117,30 +117,26 @@ const navbar = () => {
         </div>
         <div className="container mx-auto lg:flex lg:flex-row  lg:justify-between justify-center items-center space-y-2  text-main-3 pt-3 w-full">
           <div className="lg:flex lg:flex-row flex flex-col justify-center items-center space-x-12 lg:space-y-0 space-y-2">
-          <div className="flex flex-row space-x-2 ">
-            <FaRegClock className="w-5 h-5" />
-            <p>სამ საათები: 09:00 - 18:00</p>
-          </div>
-
-          </div>
-          <div className="flex flex-row space-x-4  justify-center items-center ">
-              <Link
-                href="https://www.facebook.com/videobook.ge/"
-                target="_blank"
-              >
-                <button>
-                  <FaFacebook className="w-6 h-6" />
-                </button>
-              </Link>
-              <Link
-                href="https://www.instagram.com/videobook.ge/"
-                target="_blank"
-              >
-                <button>
-                  <FaInstagram className="w-6 h-6" />
-                </button>
-              </Link>
+            <div className="flex flex-row space-x-2 ">
+              <FaRegClock className="w-5 h-5" />
+              <p>სამ საათები: 09:00 - 18:00</p>
             </div>
+          </div>
+          <div className="flex flex-row space-x-4  justify-center text-main-3 items-center ">
+            <Link href="https://www.facebook.com/videobook.ge/" target="_blank">
+              <button>
+                <FaFacebook className="w-6 h-6" />
+              </button>
+            </Link>
+            <Link
+              href="https://www.instagram.com/videobook.ge/"
+              target="_blank"
+            >
+              <button>
+                <FaInstagram className="w-6 h-6" />
+              </button>
+            </Link>
+          </div>
         </div>
       </nav>
     </div>

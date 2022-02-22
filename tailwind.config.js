@@ -4,7 +4,19 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow: {
+        '5xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
+        '6xl': [
+            '0 35px 35px rgba(167, 59, 59, 0.75)',
+            '0 45px 65px rgba(0, 0, 0, 0.15)'
+        ],
+        '7xl': [
+          '0 35px 35px rgba(9, 192, 177, 0.75)',
+          '0 45px 65px rgba(0, 0, 0, 0.15)'
+        ]
+      }
+    },
     colors: {
       'main': '#db6353',
       'white': '#ffffff',

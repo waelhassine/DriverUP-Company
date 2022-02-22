@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper";
-const header = () => {
+const headerEn = () => {
   return (
     <div className=" h-screen w-full">
       <Swiper
@@ -29,16 +29,16 @@ const header = () => {
           >
             <div className="h-screen bg-black bg-opacity-10 px-4 text-main-3">
               <div className="h-screen flex flex-col justify-center text-main-3 items-center space-y-6">
-                <p className="text-4xl text-center rounded-3xl text-white px-8 py-5 bg-main-5/80">სასაჩუქრე კომპანია, ვქმნით სიყვარულით </p>
+                <p className="text-4xl text-center rounded-3xl text-white px-8 py-5 bg-main-5/80">Gift Shop, Creating with Love </p>
                 
                 <p className="text-2xl font-light rounded-3xl px-8 py-3 text-white text-center bg-main-5/80">
-                  აჩუქე კრეატიული საჩუქარი
+                  Create a creative Gift
                 </p>
                 <button
                   type="button"
                   className="text-white  rounded-3xl  px-8 py-3 text-center mr-2 mb-2 bg-main-5/70"
                 >
-                  დაგვიკავშირდით
+                  Contact Us
                 </button>
               </div>
             </div>
@@ -55,16 +55,16 @@ const header = () => {
               >
               <div className="h-screen bg-black bg-opacity-10 px-4 text-main-3">
                 <div className="h-screen flex flex-col justify-center text-main-3 items-center space-y-6">
-                  <p className="text-4xl text-center rounded-3xl text-white px-8 py-5 bg-main-5/80">სასაჩუქრე კომპანია, ვქმნით სიყვარულით </p>
+                  <p className="text-4xl text-center rounded-3xl text-white px-8 py-5 bg-main-5/80">Gift Shop, Creating with Love  </p>
                   
                   <p className="text-2xl font-light rounded-3xl px-8 py-3 text-white text-center bg-main-5/80">
-                    აჩუქე კრეატიული საჩუქარი
+                  Create a creative Gift
                   </p>
                   <button
                     type="button"
                     className="text-white  rounded-3xl  px-8 py-3 text-center mr-2 mb-2 bg-main-5/70"
                   >
-                    დაგვიკავშირდით
+                    Cotact Us
                   </button>
                 </div>
               </div>
@@ -75,4 +75,4 @@ const header = () => {
     </div>
   );
 };
-export default header;
+export default headerEn;

@@ -3,6 +3,7 @@ import Footer from "./footer";
 
 import Meta from "./meta";
 export const Layout = ({ children }) => {
+  
   return (
     <>
       <Meta />
@@ -10,7 +11,7 @@ export const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
       </div>
-      <Footer />
+      <Footer lang={children[1].props}/>
     </>
   );
 };
