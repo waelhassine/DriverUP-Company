@@ -6,12 +6,11 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Meta />
-      <Navbar lang={children[1].props} />
+      <Navbar />
       <div>
         <main>{children}</main>
       </div>
-
-      <Footer lang={children[1].props} />
+      <Footer />
     </>
   );
 };
