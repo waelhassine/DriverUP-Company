@@ -47,7 +47,7 @@ const headerEn = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="py-2 rounded drop-shadow-7xl">
             <div
               className="h-screen bg-no-repeat bg-cover rounded-xl bg-center mx-4"
@@ -74,7 +74,7 @@ const headerEn = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

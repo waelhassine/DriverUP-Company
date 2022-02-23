@@ -15,6 +15,7 @@ import {
 import Image from "next/image";
 import Logo from "../public/VBlogo.jpg";
 const Footer = (props) => {
+  
   const lang = props.lang.lang;
 
   function FooterEn() {

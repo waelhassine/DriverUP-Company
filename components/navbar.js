@@ -30,12 +30,14 @@ const navbar = (props) => {
               </div>
             </Link>
             <div className="flex md:order-2">
-              <button
-                type="button"
-                className="text-main-dark hover:text-white hover:bg-green border-2 border-green rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
-              >
-                Write us!
-              </button>
+              <Link href='/contact'>
+                <button
+                  type="button"
+                  className="text-main-dark hover:text-white hover:bg-green border-2 border-green rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
+                >
+                  Write us!
+                </button>
+              </Link>
               <button
                 data-collapse-toggle="mobile-menu-4"
                 type="button"
@@ -93,16 +95,6 @@ const navbar = (props) => {
                       className="block py-2 pr-4 pl-3 md:hover:text-yellow-500 md:p-0 "
                     >
                       ABOUT
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services">
-                    <a
-                      href="#"
-                      className="block py-2 pr-4 pl-3 md:hover:text-yellow-500 md:p-0 "
-                    >
-                      SERVICES
                     </a>
                   </Link>
                 </li>
@@ -166,12 +158,14 @@ const navbar = (props) => {
               </div>
             </Link>
             <div className="flex md:order-2">
+            <Link href='/contact'>
               <button
                 type="button"
                 className="text-main-dark hover:text-white hover:bg-green border-2 border-green rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
               >
                 მოგვწერეთ!
               </button>
+            </Link>
               <button
                 data-collapse-toggle="mobile-menu-4"
                 type="button"
@@ -229,16 +223,6 @@ const navbar = (props) => {
                       className="block py-2 pr-4 pl-3 md:hover:text-yellow-500 md:p-0 "
                     >
                       ჩვენს შესახებ
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services">
-                    <a
-                      href="#"
-                      className="block py-2 pr-4 pl-3 md:hover:text-yellow-500 md:p-0 "
-                    >
-                      სერვისები
                     </a>
                   </Link>
                 </li>
