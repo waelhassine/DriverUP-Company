@@ -14,9 +14,9 @@ const Meta = ({ title, keywords, description }) => {
 };
 
 Meta.defaultProps = {
-  title: "Driver Company",
-  keywords: "Driver taxi, Germany",
-  description: "Get the latest news in web dev",
+  title: "Video Book",
+  keywords: "Video Book, Flip, Book",
+  description: "შეუკვეთე ფლიპ ბუქი",
 };
 
 export default Meta;
