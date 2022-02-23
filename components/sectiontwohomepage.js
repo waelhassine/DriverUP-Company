@@ -1,6 +1,6 @@
 const ContentTwo = (props) => {
-  const some = props
-  console.log(some)
+  const lang = props
+  
 
   function ContentTwoEn() {
     return (
@@ -162,6 +162,6 @@ const ContentTwo = (props) => {
     );
   }
 
-  return <div>{some ? <ContentTwoGe /> : <ContentTwoEn />}</div>;
+  return <div>{lang ? <ContentTwoGe /> : <ContentTwoEn />}</div>;
 };
 export default ContentTwo;

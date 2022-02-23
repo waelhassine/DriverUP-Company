@@ -9,12 +9,10 @@ import SectionTwoHomePageEn from "../components/sectiontwohomepageEn";
 import { useState } from "react";
 
 export default function Home(props) {
-  console.log(props.some);
-
   function English() {
     return (
       <div>
-        <HeaderEn/>
+        <HeaderEn />
         <SectionTwoHomePageEn />
         <SectionThereHomePageEn />
       </div>

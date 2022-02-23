@@ -3,15 +3,15 @@ import Footer from "./footer";
 
 import Meta from "./meta";
 export const Layout = ({ children }) => {
-  
   return (
     <>
       <Meta />
-      <Navbar />
+      <Navbar lang={children[1].props} />
       <div>
         <main>{children}</main>
       </div>
-      <Footer lang={children[1].props}/>
+
+      <Footer lang={children[1].props} />
     </>
   );
 };
